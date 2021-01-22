@@ -1,5 +1,7 @@
 #include "Genesis.h"
 
+#include "math/vec2.h"
+
 #include <random>
 
 static olc::Renderable m_Atlas;
@@ -8,22 +10,6 @@ static float m_Scale = 1;
 
 static float camX = 0;
 static float camY = 0;
-
-struct vec2
-{
-	float x;
-	float y;
-
-	vec2()
-		: x(0.0f), y(0.0f)
-	{
-	}
-
-	vec2(float x, float y)
-		: x(x), y(y)
-	{
-	}
-};
 
 class WorldRenderer
 {

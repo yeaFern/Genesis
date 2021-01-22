@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.17)
 project(Genesis)
 
 file(GLOB_RECURSE CLIENT_SRC
